@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quizz Programação</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <script src="/js/script.js" defer></script> <!--ao usar o defer faz com que o js espere o doom carregar primeiro-->
+</head>
+<body>
+    <div id="sup-pag"></div>   
+    <div id="score-container">
+        <p id="display-score"><span>90</span>%</p>
+        <p>voce acertou<span id="correct-answer">0</span> de <span id="questions-qty">10</span> perguntas</p>
+        <button id="restart">Refazer quizz!</button>
+    </div>
+    <div id="quizz-container">
+        <p id="question">
+            <span id="question-number">1</span> <span id="question-text">Qual a unidade de medida para metros?</span>
+        </p>
+        <div id="answers-box">
+            <button class="wrong-answer"><span class="btn-letter">A</span><sapn class="question-answer"></sapn>k</button>
+            <button class="correct-answer"><span class="btn-letter">A</span><sapn class="question-answer"></sapn>m</button>
+            <button><span class="btn-letter">A</span><sapn class="question-answer"></sapn>km</button>
+            <button><span class="btn-letter">A</span><sapn class="question-answer"></sapn>q</button>
+        </div>
+    </div>
+    <!--resposta-->
+    <button class="answer-template hide"><span class="btn-letter">A</span><sapn class="question-answer"></sapn></button>
+</body>
+</html>
