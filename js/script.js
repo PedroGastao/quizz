@@ -152,7 +152,7 @@ function CheckAnswer(btn){
         }
     })
 
-    //ixibi a proxima pergunta
+    //exibi a proxima pergunta
     
     NextQuestion()
 }
@@ -179,6 +179,9 @@ function ShowSucessMensage(){
 
     const totalQuestions = document.querySelector('#questions-qty')
     totalQuestions.textContent= questions.length
+
+    HiderShow()
+
 }
 
 function HiderShow(){
